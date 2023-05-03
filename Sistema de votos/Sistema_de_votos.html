@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de eleição</title>
+</head>
+<body style="text-align: center; background-color:skyblue ;">
+    <h1 id="id_title">Eleição para governadores de São Paulo</h1>
+    <h2> 1º candidato <input id="candidato1"></h2>
+        <h2> Votos <input id="voto1"> </h2>
+    <h2> 2º candidato <input id="candidato2"></h2>
+        <h2> Votos <input id="voto2"> </h2>
+    <h2> 3º candidato  <input id="candidato3"></h2>
+        <h2> Votos <input id="voto3"> </h2>
+    <h2> 4º candidato  <input id="candidato4"></h2>
+        <h2> Votos <input id="voto4"> </h2>
+    <br>
+    <br>
+        <button onclick="myFunction()" style="background-color: black; color: white; font-size: 50px;"irParedao()>VOTAR</button>
+        <div id="resultado"></div>
+        
+     <script>
+    function myFunction() {
+
+         let cdt1 = candidato1.value
+         let cdt2 = candidato2.value
+         let cdt3 = candidato3.value
+         let cdt4 = candidato4.value
+
+         let vt1 = Number(voto1.value)
+         let vt2 = Number(voto2.value)
+         let vt3 = Number(voto3.value)
+         let vt4 = Number(voto4.value)
+    
+    //governador
+
+    if (vt1 > vt2 && vt1 > vt3 && vt1> vt4) {
+        alert(`O Candidato ${cdt1}, teve ${vt1} votos, sendo assim o Governador`)
+        resultado.innerHTML = ` <h1 style="color: green;">O Candidato ${cdt1}, teve ${vt1} votos, sendo assim o Governador </h1>`
+    }
+    
+    else if(vt2 > vt1 && vt2 > vt3 && vt2> vt4) {
+        alert(`O Candidato ${cdt2}, teve ${vt2} votos, sendo assim o Governador`)
+        resultado.innerHTML = ` <h1 style="color: green;">O Candidato ${cdt2}, teve ${vt2} votos, sendo assim o Governador </h1>`
+    } 
+
+    else if(vt3 > vt1 && vt3 > vt2 && vt3> vt4) {
+        alert(`O Candidato ${cdt3}, teve ${vt3} votos, sendo assim o Governador`)
+        resultado.innerHTML = ` <h1 style="color: green;">O Candidato ${cdt3}, teve ${vt3} votos, sendo assim o Governador </h1>`
+    }
+
+    else if(vt4 > vt1 && vt4 > vt2 && vt4> vt3) {
+        alert(`O Candidato ${cdt4}, teve ${vt4} votos, sendo assim o Governador`)
+        resultado.innerHTML = ` <h1 style="color: green;">O Candidato ${cdt4}, teve ${vt4} votos, sendo assim o Governador </h1>`
+    }
+    
+    //vice governador
+    
+    //vice1
+
+    if (vt1 < vt2 && vt1 > vt3 && vt1 > vt4) {
+        resultado.innerHTML += ` <h1 style="color: green;">O Vice governador ${cdt1}, teve ${vt1} votos </h1>`
+    }
+    
+    else if(vt1 > vt2 && vt1 < vt3 && vt1 > vt4) {
+        resultado.innerHTML += ` <h1 style="color: green;">O Vice governador ${cdt1}, teve ${vt1} votos </h1>`
+    } 
+
+    else if(vt1 > vt2 && vt1 > vt2 && vt1 < vt4) {
+        resultado.innerHTML += ` <h1 style="color: green;">O Vice governador ${cdt1}, teve ${vt1} votos </h1>`
+    }
+
+    //vice2
+
+   if (vt2 < vt1 && vt2 > vt3 && vt2 > vt4) {
+        resultado.innerHTML += ` <h1 style="color: green;">O Vice governador ${cdt2}, teve ${vt2} votos </h1>`
+    }
+    
+    else if(vt2 > vt1 && vt2 < vt3 && vt2 > vt4) {
+        resultado.innerHTML += ` <h1 style="color: green;">O Vice governador ${cdt2}, teve ${vt2} votos </h1>`
+    } 
+    else if(vt2 > vt1 && vt2 > vt3 && vt2 < vt4) {
+        resultado.innerHTML += ` <h1 style="color: green;">O Vice governador ${cdt2}, teve ${vt2} votos </h1>`
+    }
+
+     //vice3
+
+    if  (vt3 < vt1 && vt3 > vt2 && vt3 > vt4) {
+        resultado.innerHTML += ` <h1 style="color: green;">O Vice governador ${cdt3}, teve ${vt3} votos </h1>`
+    }
+    
+    else if(vt3 > vt1 && vt3 < vt2 && vt3 > vt4) {
+        resultado.innerHTML += ` <h1 style="color: green;">O Vice governador ${cdt3}, teve ${vt3} votos </h1>`
+    } 
+    else if(vt3 > vt1 && vt3 > vt2 && vt3 < vt4) {
+        resultado.innerHTML += ` <h1 style="color: green;">O Vice governador ${cdt3}, teve ${vt3} votos </h1>`
+    }
+
+    //vice4
+    
+    if (vt4 < vt1 && vt4 > vt2 && vt4 > vt3) {
+        resultado.innerHTML += ` <h1 style="color: green;">O Vice governador ${cdt4}, teve ${vt4} votos </h1>`
+    }
+    
+    else if(vt4 > vt1 && vt4 < vt2 && vt4 > vt3) {
+        resultado.innerHTML += ` <h1 style="color: green;">O Vice governador ${cdt4}, teve ${vt4} votos </h1>`
+    } 
+    else if(vt4 > vt1 && vt4 > vt2 && vt4 < vt3) {
+        resultado.innerHTML += ` <h1 style="color: green;">O Vice governador ${cdt4}, teve ${vt4} votos </h1>`
+    }}
+</script>
+
+</body>
+</html>

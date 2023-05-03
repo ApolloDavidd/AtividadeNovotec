@@ -38,8 +38,13 @@ grid-template-rows: 1fr 4fr 1fr; /* divisão em linhas */
     background-color: blue;
 }
 
-.nav-right{
+.rodape{
     grid-area: l;
     background-color: skyblue;
+}
+
+.meio{
+    grid-area: f;
+    background-color: purple;
 }
 /* fim */
