@@ -1,23 +1,29 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banco</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css">
+    <title>banco</title>
 </head>
-<body style="text-align: center; background-color: slategrey">
-    <h1>Banco Apollão</h1> <br>
-    <h2> Saldo atual</h2> <h2 id="saldo_atual">800</h2>
-    <h3> Valor do saque <input id="id_saque"> <br></h3>
-    <div id="resultado">
-    <h3> Valor do deposito <input id="id_deposito"> <br></h3>
-    <button onclick="id_sacar()"> Sacar</button> 
-    <button onclick="id_depositar()"> Depositar</button> 
-    <br>
-    <div style="color: rgb(0, 255, 0); font-size: 20px;"  id="resolver">
-    </div>
-    </div>
+<body>
+    <h1 class="bank-text">p7k bank</h1>
+    <div id="resultado"></div>
+    <p class="input-numbers">
+        <label for="">Valor do saque</label>
+        <input type="number" id="input-saque" placeholder="Ex: 70"> <br>
+        <label for="">Valor do deposito</label>
+        <input type="number" id="input-deposito" placeholder="Ex: 185">
+    </p>
+    <button onclick="sacar()">Sacar</button>
+    <button onclick="depositar()">Depositar</button>
+    <script src="./script.js"></script>
 </body>
 </html>
-<script src="Imc.js"></script>
