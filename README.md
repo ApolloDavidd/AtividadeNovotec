@@ -1,5 +1,5 @@
 # atividadeJs2
-<h2 color=green>Simple codes used in the classroom </h2>
+<h2 color=green>Simple codes that were used in the classroom </h2>
 
 
 
