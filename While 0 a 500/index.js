@@ -14,7 +14,7 @@ function mostrarNumeros() {
     }
 }
 
-function num0a5() {
+function num0a500() {
     let numeros = document.getElementById(`div_num`)
 
     let numero = 1;
