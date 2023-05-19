@@ -1,0 +1,18 @@
+body {
+    background-color: aquamarine;
+}
+
+#barra  {
+    width: 150%;
+    height: 30px;
+    background-color: green;
+    margin-left:  -20%;
+}
+
+#barra2  {
+    width: 150%;
+    height: 30px;
+    background-color: green;
+    margin-left:  -20%;
+}
+
