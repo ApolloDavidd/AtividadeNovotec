@@ -1,0 +1,58 @@
+
+
+header{
+
+position: absolute;
+width: 100%;
+height: 76px;
+left: 0px;
+top: 0px;
+
+background: #B952EA;
+
+
+}
+
+header span{
+        position: absolute;
+    width: 100%;
+    height: 76px;
+    left: 0px;
+    top: 12px;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Alfa Slab One', cursive;
+
+        color: #FFFFFF;
+    }
+    
+    .rectangle{
+    position: absolute;
+    width: 100%;
+    height: 31px;
+    left: 0px;
+    top: 76px;
+    
+    background: #F2F548;}
+
+    .desconto span {
+position: absolute;
+width: 100%;
+height: 34px;
+
+top: 76px;
+text-align: center;
+
+font-family: 'Alfa Slab One';
+
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 34px;
+
+color: #000000;
+    }
+
+
+
+
