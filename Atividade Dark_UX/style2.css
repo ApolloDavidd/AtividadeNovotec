@@ -1,16 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
-
-
-
-body{
-    margin: 0;
-}
-
-
 header {
-    /* position: absolute; */
+    position: absolute;
     width: 100%;
     height: 76px;
+    left: 0px;
+    top: 0px;
+
     background: #b952ea;
 }
 
@@ -18,6 +12,7 @@ header span {
     position: absolute;
     width: 100%;
     height: 76px;
+    left: 0px;
     top: 12px;
     text-align: center;
     font-size: 40px;
@@ -27,31 +22,13 @@ header span {
 }
 
 .rectangle {
-    /* position: absolute; */
+    position: absolute;
     width: 100%;
     height: 31px;
+    left: 0px;
     top: 76px;
 
     background: #f2f548;
-}
-
-
-.conteudo{
-    margin-top: 5%;
-    /* position: absolute; */
-    width: 100%;
-    height: 390%;
-}
-
-
-.info-dispostivo{
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 5%;
-    margin-right: 100%;
-    float: left;
-    /* margin-left: 36%; */
-    width: 100%;
-    height: 390%;
 }
 
 .desconto span {
@@ -72,15 +49,13 @@ header span {
     color: #000000;
 }
 
-/* @media (max-width: 475px) { */
-
-
 #comprar {
-    /* position: relative; */
-    /* width: 466px;
+    position: absolute;
+    width: 466px;
     height: 118px;
-    /* top: 640px; */
-/* 
+    left: 960px;
+    top: 640px;
+
     background: #b952ea;
     border-radius: 30px;
 
@@ -94,24 +69,26 @@ header span {
 
     color: #ffffff;
 
-    cursor: pointer;  */
+    cursor: pointer;
 }
 
 .iphone {
-    /* position: absolute; */
-    float: left;
-    margin-left: 7%;
-    width: 50%;
-    height: 60%;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 325px;
+    top: 290px;
+
+    background: url(image.png);
 }
 
 .info {
-    /* position: absolute;
-    /* float: right; */
-    /* width: 776px;
+    position: absolute;
+    width: 776px;
     height: 69px;
-    /* top: 290px; */
-    /* line-height: 34.23px;
+    left: 960px;
+    top: 290px;
+    line-height: 34.23px;
 
     font-family: "Alfa Slab One";
     font-style: normal;
@@ -119,30 +96,32 @@ header span {
     font-size: 25px;
     line-height: 34px;
 
-    color: #000000;  */
-} 
+    color: #000000;
+}
 
 .ant_preco {
-    /* position: absolute; */
-    /* width: 233px;
-    height: 59px; */
-    /* top: 376px; */
-    /* text-decoration: line-through black 2px;
+    position: absolute;
+    width: 233px;
+    height: 59px;
+    left: 960px;
+    top: 376px;
+    text-decoration: line-through black 2px;
 
     font-family: "Anek Odia";
     font-style: normal;
     font-weight: 400;
     font-size: 35px;
-    line-height: 59px; */
+    line-height: 59px;
     /* identical to box height */
 
-    /* color: #000000; */
+    color: #000000;
 }
 
 .estoque span {
-    /* position: absolute;
+    position: absolute;
     width: 370px;
     height: 27px;
+    left: 1008px;
     top: 765px;
 
     font-family: "Alfa Slab One";
@@ -151,13 +130,14 @@ header span {
     font-size: 20px;
     line-height: 27px;
 
-    color: #fe3838; */
+    color: #fe3838;
 }
 
 .preco {
-    /* position: absolute; */
-    /* width: 442px;
+    position: absolute;
+    width: 442px;
     height: 155px;
+    left: 960px;
     top: 415px;
 
     font-family: "Alfa Slab One";
@@ -166,13 +146,14 @@ header span {
     font-size: 70px;
     line-height: 96px;
 
-    color: #b952ea; */
+    color: #b952ea;
 }
 
 .variação span {
-    /* position: absolute; */
-    /* width: 371px;
+    position: absolute;
+    width: 371px;
     height: 102px;
+    left: 961px;
     top: 510px;
 
     font-family: "Anek Odia";
@@ -181,9 +162,7 @@ header span {
     font-size: 20px;
     line-height: 34px;
 
-    color: #000000; */
+    color: #000000;
 }
-
-/* } */
 
 
