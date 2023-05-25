@@ -53,6 +53,31 @@ line-height: 34px;
 color: #000000;
     }
 
+    
+
+.compras {
+    position: absolute;
+    width: 466px;
+    height: 118px;
+    left: calc(50% - 466px/2 + 233px);
+    top: calc(50% - 118px/2 + 172px);
+    
+    background: #B952EA;
+    border-radius: 30px;
+
+    
+    font-family: 'Alfa Slab One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 125px;
+    text-align: center;
 
 
+    color: #FFFFFF;
 
+    cursor: pointer;
+    
+    
+    
+}
