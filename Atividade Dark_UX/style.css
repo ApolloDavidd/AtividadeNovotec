@@ -55,18 +55,19 @@ color: #000000;
 
     
 
-.compras {
+#comprar {
     position: absolute;
     width: 466px;
     height: 118px;
-    left: calc(50% - 466px/2 + 233px);
-    top: calc(50% - 118px/2 + 172px);
+    left: 960px;
+    top: 640px;
     
     background: #B952EA;
     border-radius: 30px;
 
     
     font-family: 'Alfa Slab One';
+
     font-style: normal;
     font-weight: 400;
     font-size: 50px;
@@ -80,4 +81,107 @@ color: #000000;
     
     
     
+}
+
+.iphone {
+    position: absolute;
+width: 500px;
+height: 500px;
+left: 325px;
+top: 290px;
+
+background: url(image.png);
+}
+
+.info {
+
+position: absolute;
+width: 776px;
+height: 69px;
+left: 960px;
+top: 290px;
+line-height: 34.23px;
+
+font-family: 'Alfa Slab One';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 34px;
+
+color: #000000;
+
+}
+
+.ant_preco{
+
+position: absolute;
+width: 233px;
+height: 59px;
+left: 960px;
+top: 376px;
+text-decoration: line-through black 2px;
+
+font-family: 'Anek Odia';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 59px;
+/* identical to box height */
+
+
+color: #000000;
+
+
+}
+
+.estoque span {
+
+position: absolute;
+width: 370px;
+height: 27px;
+left: 1008px;
+top: 765px;
+
+font-family: 'Alfa Slab One';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+
+color: #FE3838;
+}
+
+.preco {
+
+position: absolute;
+width: 442px;
+height: 155px;
+left: 960px;
+top: 415px;
+
+font-family: 'Alfa Slab One';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 96px;
+
+color: #B952EA;
+
+}
+
+.variação span {
+
+position: absolute;
+width: 371px;
+height: 102px;
+left: 961px;
+top: 510px;
+
+font-family: 'Anek Odia';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 34px;
+
+color: #000000;
 }

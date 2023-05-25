@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 25px;
+    background-color: aqua;
+}
+
+#id_barra{
+    width: 100%;
+    height: 50px;
+    background-color: green;
+}
