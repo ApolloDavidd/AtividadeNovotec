@@ -31,6 +31,16 @@ header span {
     background: #f2f548;
 }
 
+.obrigado {
+    /* position: absolute; */
+    width: 100%;
+    height: 31px;
+    top: 76px;
+
+    background: #b952ea;
+}
+
+
 .desconto span {
     position: absolute;
     width: 100%;

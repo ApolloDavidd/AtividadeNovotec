@@ -75,14 +75,18 @@ header span {
 /* @media (max-width: 475px) { */
 
 
-#comprar {
-    /* position: relative; */
-    /* width: 466px;
-    height: 118px;
-    /* top: 640px; */
-/* 
+.conteudo span{
+    font-family: 'Alfa Slab One', cursive;
+}
+
+#comprar span {
+    position: relative;
+     width: 600px;
+    height: 200px;
+     top: 240px; 
+
     background: #b952ea;
-    border-radius: 30px;
+    border-radius: 10px;
 
     font-family: "Alfa Slab One";
 
@@ -94,7 +98,7 @@ header span {
 
     color: #ffffff;
 
-    cursor: pointer;  */
+    cursor: pointer; 
 }
 
 .iphone {
