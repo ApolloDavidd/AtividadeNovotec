@@ -1,27 +1,15 @@
-import java.util.Scanner;
-class Main {
-    public static void main (String [] args){
-        Scanner sc = new Scanner (System.in);
-        double salariohoras =0.0;
-        double qtdhoras = 0.0;
-        String professor ="";
-        String materia= "";
 
-        System.out.println("Nome do professor: ");
-        professor = sc.next();
+public class Main {
+    public static void main (String[] args){
 
-        System.out.println("Insira a matéria do professor");
-        materia = sc.next();
+        Integer numero;
 
-        System.out.println("Quantas horas?");
-        qtdhoras = sc.nextDouble();
+        professor prof = new professor(1, "Apollo", "Matematica",  10.00);
 
-        System.out.println("Quanto e salário por horas?");
-        salariohoras = sc.nextDouble();
-        sc.close();
+        prof.calcular(1,2);
 
-         var Apollo = salariohoras * qtdhoras;
-        System.out.println("O professor " + professor + " dará a matéria " + materia + "por " + qtdhoras +
-                " horas e terá o salário de " + Apollo + " reais");
+        aluno aluno1 = new aluno (1, "Pedrinho", "3º Ensino Médio", 18);
+
+        aluno
     }
 }
